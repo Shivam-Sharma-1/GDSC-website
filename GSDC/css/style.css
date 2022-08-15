@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 50px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar::before {
+  top: 0;
+  left: 0;
+  content: "";
+  background:
+    url(https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg?w=1380&t=st=1660481218~exp=1660481818~hmac=045726ea63e77748d905ebe2a679192d703cfbdd36fc77780693d71ec38017b6) no-repeat center center/cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+
+}
+
+.item {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.item a {
+  display: block;
+  margin-left: 10px;
+  border-radius: 25px;
+  padding: 3px 22px;
+  text-decoration: none;
+  position: sticky;
+  color: black;
+  font-family: 'Roboto Slab', serif;
+}
+
+.item :hover {
+  background-color: rgba(255, 255, 255, 0.647);
+  color: black;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+  height: 437px;
+}
+
+.home::before {
+  left: 0;
+  top: 50px;
+  content: "";
+  background:
+    url(https://media-exp1.licdn.com/dms/image/C561BAQETejTo2GCbvw/company-background_10000/0/1630568979194?e=1661112000&v=beta&t=t7RFrnddecMfbw3twQJgDZl3YR6fTT8sEabXZH-QyDE) no-repeat center center/cover;
+  position: absolute;
+  height: 434px;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
+}
+
+.home1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 79px;
+}
+
+.home1::before {
+  left: 0;
+  top: auto;
+  content: "";
+  background:
+    url(https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg?w=996&t=st=1660491131~exp=1660491731~hmac=5112a022d151524a7e6a9377a31a1c99a1de07c60cd0b6a279dc01646703229c) no-repeat center center/cover;
+  position: absolute;
+  height: 434px;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
+  margin-top: -9px;
+}
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  height: 320px;
+  padding: 20px;
+  margin: 3px 3px 3px 3px;
+  border-radius: 25px;
+
+}
+
+
+.box img {
+
+  width: 80%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  border-radius: 100%;
+}
+
+.ans {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+}
+
+.question {
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.home2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 29px;
+}
+
+.home2::before {
+  left: 0;
+  top: 838px;
+  content: "";
+  background:
+    url(https://img.freepik.com/free-vector/light-blue-curve-background_53876-99565.jpg?t=st=1660488477~exp=1660489077~hmac=23649ec016957f443dd4269b59f3caf3df03baa60dbb4e447843b99458ec53c2) no-repeat center center/cover;
+  position: absolute;
+  height: 369px;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
+  margin-top: 78px;
+  display: flex;
+  flex-direction: row;
+}
+
+.catalogue {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 230px;
+  padding: 30px;
+  margin: 3px 3px 3px 3px;
+  border-radius: 25px;
+  border: 2px solid black;
+  margin: 0px 50px;
+}
+
+.pic1 {
+  width: 150px;
+  margin-top: 0px;
+}
+
+.pic2 {
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.box2font {
+  margin-top: 5px;
+  font-size: 40px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.box2font:hover {
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.box2font2 {
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: row;
+
+
+  width: 30%;
+  height: 320px;
+  padding: 20px;
+  margin: 3px 3px 3px 3px;
+  border-radius: 25px;
+  border: 3px solid rgb(17, 161, 245);
+}
+
+.box3 img {
+  width: 300px;
+
+}
+
+.events {
+  height: 86%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.home3 {
+  width: 100%;
+  height: 450px;
+  background: url(https://st2.depositphotos.com/6504442/9282/i/950/depositphotos_92822068-stock-photo-raster-abstract-light-blue-blurred.jpg) no-repeat center center/cover;
+}
+
+.box3font {
+  font-family: 'Roboto Slab', serif;
+  margin-top: 35px;
+  margin-left: 30px;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.foot {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box4 {
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 150px;
+  height: 250px;
+  padding: 20px;
+  margin: 3px 30px 3px 30px;
+}
+
+.box4 img {
+  width: 150px;
+  height: 150px;
+}
+
+.home4 {
+  margin-top: -16px;
+  height: 260px;
+  width: 100%;
+  background: url(https://projectmgtcoach.com/wp-content/uploads/2015/03/light-blue-backgrounds-for-websites-1024x813.jpg) no-repeat center center/cover;
+
+}
+
+.box4font {
+  font-family: 'Roboto Slab', serif;
+  margin-top: 15px;
+  margin-left: 50px;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 165px;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #494949;
+  width: 100%;
+  height: 160px;
+}
+
+.box5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 30%;
+}
+
+.footfont {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: white;
+}
+
+.box5 a iframe {
+  height: 9rem;
+  width: 100%;
+}

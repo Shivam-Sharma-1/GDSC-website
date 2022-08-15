@@ -1,0 +1,172 @@
+/* @media screen and (max-width:1100px) {
+} */
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30px;
+}
+
+.home::before {
+    margin-top: -20px;
+    height: 300px;
+}
+
+.item {
+    font-size: 10px;
+}
+
+.item a {
+    padding: 4px 4px;
+}
+
+.question {
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+.ans {
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+.home1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -112px;
+}
+
+.home1::before {
+    height: 320px;
+
+    margin-top: 27px;
+}
+
+.box {
+    height: 100px;
+
+    width: 85%;
+}
+
+.box img {
+
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.home2 {
+    margin-top: 26px;
+}
+
+.home2::before {
+    height: 230px;
+    margin-top: -188px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+.pic1 {
+    width: 50px;
+    margin: 0px;
+}
+
+.pic2 {
+    width: 50px;
+}
+
+.box2font {
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.box2font2 {
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.home3 {
+    margin-top: 27px;
+    height: 270px;
+}
+
+.box3font {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    margin: 3px 3px 3px 3px;
+    border-radius: 25px;
+    border: 2px solid rgb(17, 161, 245);
+}
+
+.box3 img {
+    width: 150px;
+
+}
+
+.home4 {
+    height: 200px;
+}
+
+.box4font {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.box4 {
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+    margin: 3px 10px 3px 10px;
+}
+
+
+.box4 img {
+    width: 80px;
+    height: 80px;
+}
+
+.footfont {
+    font-size: 10px;
+}
+
+.foot {
+    height: 130px;
+}
+
+.box5 a iframe {
+    width: 90px;
+    height: 90px;
+}
