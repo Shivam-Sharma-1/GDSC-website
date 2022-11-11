@@ -1,2 +1,2 @@
 # GDSC-website
-Made this website as a part of tasks provided under technical team.
+I had made this website as a part of tasks provided under technical team.
