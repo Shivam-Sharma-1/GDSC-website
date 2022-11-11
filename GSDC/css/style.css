@@ -66,7 +66,7 @@
   top: 50px;
   content: "";
   background:
-    url(https://media-exp1.licdn.com/dms/image/C561BAQETejTo2GCbvw/company-background_10000/0/1630568979194?e=1661112000&v=beta&t=t7RFrnddecMfbw3twQJgDZl3YR6fTT8sEabXZH-QyDE) no-repeat center center/cover;
+    url('../img/home.jpg') no-repeat center center/cover;
   position: absolute;
   height: 434px;
   width: 100%;
